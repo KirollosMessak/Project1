@@ -15,9 +15,11 @@ list_of_files =[
     'src/pipeline/__init__.py',
     'src/pipeline/training_pipeline.py',
     'src/pipeline/prediction_pipeline.py',
-    'src/utils/__init__.py'
-    'src/utils.py',#store helper functions that are reused 
-                  #across different parts of your MLOps 
+    'src/utils/__init__.py',
+    'src/utils/utils.py',#store helper functions that are reused 
+                  #across different parts of your MLOps
+    'src/logger/logging.py',
+    'src/exeption/exception.py', 
     'test/unit_testing/__init__.py',#for single unit testing
     'test/integration_testing/__init__.py',#for intire system testing
     'init_setup.sh',#to automate initial setup install dependencies and create VE 
@@ -26,7 +28,7 @@ list_of_files =[
     'setup.py',
     'setup.cfg',
     'pyproject.toml',
-    'tox.ini',
+    'tox.ini',#to test code in a local environment
     'experiment/experiments.ipynb'# to do experiments
 ]
 
